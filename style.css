@@ -1,24 +1,50 @@
 body{
     margin: 0;
-
+    display: flex;
+    flex-direction: column;
 }
-
+    /* Header section */
 .header{
-    background-color: aqua;
+    background-color: #1F2037;
+    height: 500px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
 }
 
+.header h2{
+    color: #f9FaF8;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 8px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+    /* Header section END */
 .container-information{
     background-color: blanchedalmond;
+    height: 500px;
 }
 
 .container-quote{
     background-color: hotpink;
+    height: 500px;
 }
 
 .container-signup{
     background-color: aquamarine;
+    height: 500px;
 }
 
 .footer{
     background-color: aqua;
+    height: 100px;
 }
