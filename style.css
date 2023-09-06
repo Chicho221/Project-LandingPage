@@ -2,14 +2,26 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,li,a,h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
 }
     /* Header section */
-.header{
+.container-header{
     background-color: #1F2037;
-    height: 500px ;
+    height: 550px ;
+    padding: 0 15%;
+}
+
+.header{
     display: flex;
     justify-content: space-between;
-    padding: 0 15%;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
 }
 
 .header h2{
@@ -17,18 +29,65 @@ body{
     font-size: 24px;
 }
 
-a{
+.links a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 8px;
 }
 
-ul{
+.header ul{
     display: flex;
     list-style: none;
+    gap: 32px;
+}
+
+.header-content{
+    padding: 100px 0;
+    display: flex;
+    flex: 1 1 50%;
+    align-items: center;
+    gap: 10%;
+}
+
+.content-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+    filter: contrast(60%);
+}
+
+.content-image {
+    height: 250px;
+    width: 100%;
+    background-color: #ffffff2c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button{
+    border: 0;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 32px;
+    margin-top: 12px;
+}
+
+.signup-button:hover{
+    cursor: pointer;
 }
     /* Header section END */
+
+    
 .container-information{
     background-color: blanchedalmond;
     height: 500px;
