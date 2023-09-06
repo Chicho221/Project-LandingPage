@@ -85,14 +85,50 @@ ul,li,a,h1,h2,h3,h4,p{
 .signup-button:hover{
     cursor: pointer;
 }
+
     /* Header section END */
 
-    
+    /* Information section */
+
 .container-information{
-    background-color: blanchedalmond;
+    background-color: #fff;
     height: 500px;
+    text-align: center;
+    
 }
 
+.title-info {
+    margin: 42px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2037;
+}
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    text-align: center;
+}
+
+.content-container{
+    max-width: 180px;
+}
+
+.information-image{
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    width: 180px;
+    height: 180px;
+}
+
+.information-text{
+    padding-top: 8px;
+    font-size: 16px;
+    color: #1F2037;
+}
+
+    /* Informaton section END */
 .container-quote{
     background-color: hotpink;
     height: 500px;
