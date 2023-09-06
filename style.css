@@ -9,12 +9,17 @@ ul,li,a,h1,h2,h3,h4,p{
     margin: 0;
     padding: 0;
 }
+
+.padding-sides{
+    padding: 0 15%;
+}
     /* Header section */
 .container-header{
     background-color: #1F2037;
     height: 550px ;
-    padding: 0 15%;
 }
+
+
 
 .header{
     display: flex;
@@ -130,16 +135,20 @@ ul,li,a,h1,h2,h3,h4,p{
 
     /* Informaton section END */
 .container-quote{
-    background-color: hotpink;
+    background-color: #E5E7EB;
     height: 500px;
 }
 
 .container-signup{
-    background-color: aquamarine;
+    background-color: #fff;
     height: 500px;
 }
 
 .footer{
-    background-color: aqua;
+    background-color: #1F2037;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9FaF8;
 }
