@@ -134,10 +134,36 @@ ul,li,a,h1,h2,h3,h4,p{
 }
 
     /* Informaton section END */
+
+    /* Quote section */
+
 .container-quote{
     background-color: #E5E7EB;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2037;
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.quote-author, .quote-text{
+    padding: 0 10%;
+}
+
+
+    /* Quote section END */
 
 .container-signup{
     background-color: #fff;
