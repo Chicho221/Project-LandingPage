@@ -14,7 +14,7 @@ ul,li,a,h1,h2,h3,h4,p{
     padding: 0 15%;
 }
     /* Header section */
-.container-header{
+#header-section{
     background-color: #1F2037;
     height: 550px ;
 }
@@ -32,7 +32,7 @@ ul,li,a,h1,h2,h3,h4,p{
     font-size: 24px;
 }
 
-.links a{
+.header a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -44,7 +44,7 @@ ul,li,a,h1,h2,h3,h4,p{
     gap: 32px;
 }
 
-.header-content{
+.hero{
     padding: 100px 0;
     display: flex;
     flex: 1 1 50%;
@@ -52,19 +52,19 @@ ul,li,a,h1,h2,h3,h4,p{
     gap: 10%;
 }
 
-.content-text h1{
+.hero-text h1{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
-.content-text p{
+.hero-text p{
     font-size: 18px;
     color: #E5E7EB;
     filter: contrast(60%);
 }
 
-.content-image {
+.hero-image {
     height: 250px;
     width: 100%;
     background-color: #ffffff2c;
@@ -93,14 +93,14 @@ ul,li,a,h1,h2,h3,h4,p{
 
     /* Information section */
 
-.container-information{
+#info-section{
     background-color: #fff;
     height: 500px;
     text-align: center;
     
 }
 
-.title-info {
+.info-title {
     margin: 42px 0;
     font-size: 36px;
     font-weight: bold;
@@ -118,14 +118,14 @@ ul,li,a,h1,h2,h3,h4,p{
     max-width: 180px;
 }
 
-.information-image{
+.info-image{
     border: 5px solid #3882F6;
     border-radius: 16px;
     width: 180px;
     height: 180px;
 }
 
-.information-text{
+.info-text{
     padding-top: 8px;
     font-size: 16px;
     color: #1F2037;
@@ -135,7 +135,7 @@ ul,li,a,h1,h2,h3,h4,p{
 
     /* Quote section */
 
-.container-quote{
+#quote-section{
     background-color: #E5E7EB;
     height: 500px;
     display: flex;
@@ -164,7 +164,7 @@ ul,li,a,h1,h2,h3,h4,p{
 
     /* SignUp section */
 
-.container-signup{
+#signup-section{
     background-color: #fff;
     height: 500px;
     display: flex;
@@ -197,7 +197,8 @@ ul,li,a,h1,h2,h3,h4,p{
     /* SignUp section END */
 
     /* Footer section */
-.footer{
+    
+#footer-section{
     background-color: #1F2037;
     height: 100px;
     display: flex;
